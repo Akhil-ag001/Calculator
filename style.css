@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    border: 1px black;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.results{
+    width: 310px;
+    height: 60px;
+    border: 1px black solid;
+    display: flex;
+}
+
+.input-exp{
+    flex: 1;
+    border: 1px black solid;
+}
+
+.local-result{
+    width: 100px;
+    border: 1px black solid;
+}
+
+.inputs{
+    display: flex;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+}
